@@ -19,10 +19,10 @@ club = "\u2663"
 
 suits = [spade, heart, diamond, club]
 
-<<<<<<< HEAD
 # Выведем произвольную карты, выбрав по одному элементу из массивов
+puts "Произвольная карта из колоды:"
 puts "#{values.sample} of #{suits.sample}"
-=======
+
 cards = []
 
 values.each do |value|
@@ -36,7 +36,7 @@ cards.shuffle!
 puts 'How many cards do you pick?'
 number = STDIN.gets.to_i
 
+puts "Несколько произвольных карт из колоды:"
 number.times do
   puts cards.pop
 end
->>>>>>> multiple_cards
